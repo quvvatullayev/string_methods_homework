@@ -6,5 +6,9 @@ def main(s):
     Returns:
         str: answer
     """
+
+    s = str(s)
     
-    return
+    return s.upper()
+
+print(main("quvvatullayev ogabek"))
