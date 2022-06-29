@@ -7,4 +7,4 @@ def main(s):
         bool: answer
     """
     s = str(s)
-    return  s.lower()
+    return  s.lower() == s
