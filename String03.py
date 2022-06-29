@@ -6,5 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-
-    return
+    s = str(s)
+    return s.lower()
