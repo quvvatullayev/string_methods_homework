@@ -1,3 +1,6 @@
+from turtle import st
+
+
 def main(s):
     """
     A str of several words is given. Return the variable capitalized.
@@ -6,5 +9,5 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s = str(s)
+    return s.upper()
