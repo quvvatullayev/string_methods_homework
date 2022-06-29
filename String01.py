@@ -8,7 +8,7 @@ def main(s):
         str: answer
     """
     s = str(s)
-    
-    return s == s.title()
+
+    return s.title()
 
 print(main("Mening ismim quvvatullayev ogabek"))
