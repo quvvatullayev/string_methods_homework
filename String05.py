@@ -10,4 +10,4 @@ def main(s):
         str: answer
     """
     s = str(s)
-    return s.upper()
+    return s.capitalize()
